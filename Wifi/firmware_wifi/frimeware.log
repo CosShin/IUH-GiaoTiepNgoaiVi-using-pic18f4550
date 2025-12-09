@@ -1,0 +1,23 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4550 -DL -O11111114 -fo20 -N"D:\giaotiepngoaivi\WIFI\frimeware.mcppi" -SP"D:\giaotiepngoaivi\mikroC PRO for PIC\Defs\" -SP"D:\giaotiepngoaivi\mikroC PRO for PIC\uses\P18\" -SP"D:\giaotiepngoaivi\WIFI\" -SP"D:\giaotiepngoaivi\mikroC PRO for PIC\Packages\FT800\Uses\" -SP"D:\giaotiepngoaivi\mikroC PRO for PIC\Packages\FT810\Uses\" -SP"D:\giaotiepngoaivi\mikroC PRO for PIC\Packages\FT812\Uses\" -SP"D:\giaotiepngoaivi\WIFI\ESP8266_PIC librarey\ESP8266_PIC librarey\" -IP"D:\giaotiepngoaivi\mikroC PRO for PIC\Packages\FT800\Uses\" -IP"D:\giaotiepngoaivi\mikroC PRO for PIC\Packages\FT810\Uses\" -IP"D:\giaotiepngoaivi\mikroC PRO for PIC\Packages\FT812\Uses\" "frimeware.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_Button.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_UART_c67.mcl" "__Lib_USB_genHID.mcl" "__Lib_TFT.mcl"	 
+hint: 0	1139	Available RAM: 2027 [bytes], Available ROM: 32768 [bytes]	 
+error: 19	304	 error: Unterminated string literal, skipped the line	D:\giaotiepngoaivi\WIFI\frimeware.c
+diagnostics: 0	122	Compilation Started	stdbool.h
+error: 68	324	Undeclared identifier '_esp8266_print' in expression	frimeware.c
+error: 69	324	Undeclared identifier '_esp8266_waitFor' in expression	frimeware.c
+error: 70	324	Undeclared identifier '_esp8266_waitFor' in expression	frimeware.c
+error: 76	324	Undeclared identifier '_esp8266_print' in expression	frimeware.c
+error: 77	324	Undeclared identifier '_esp8266_waitFor' in expression	frimeware.c
+error: 98	324	Undeclared identifier '_esp8266_getch' in expression	frimeware.c
+error: 167	324	Undeclared identifier '_esp8266_getch' in expression	frimeware.c
+error: 167	317	Operator '' is not applicable to these operands ''	frimeware.c
+error: 177	324	Undeclared identifier '_esp8266_getch' in expression	frimeware.c
+error: 182	315	Invalid expression	frimeware.c
+error: 182	402	; expected, but 'unsigned' found	frimeware.c
+error: 182	315	Invalid expression	frimeware.c
+error: 182	402	; expected, but 'char' found	frimeware.c
+error: 182	324	Undeclared identifier 'i' in expression	frimeware.c
+error: 182	425	')' expected, but ';' found	frimeware.c
+error: 182	324	Undeclared identifier 'i' in expression	frimeware.c
+error: 182	424	'}' expected ';' found	frimeware.c
+error: 185	312	Internal error ''	frimeware.c
+error: 0	102	Finished (with errors): 16 Mar 2025, 00:18:54	frimeware.mcppi
